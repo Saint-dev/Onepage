@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+	height: 75px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	padding: 10px 10px;
+	color: #16507b;
+	text-decoration: none;
+}
+button {
+	border-radius: 5px;
+	border: none;
+	background: #2487ce;
+color: white;
+width: 125px;
+  height: 40px;
+}
+#home a{
+	color: #3e9bdd;
+}
+.logo h1 {
+	color: #16507b;
+	font-size: 1.9rem;
+	font-weight: 400;
+}
+
+.container-mae {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+}
+
+.container-filha {
+	gap: 12px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.container-filha h1 {
+	line-height: 72px;
+	text-align: center;
+	 color: #124265;
+	 font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 56px;
+
+}
+.container-filha p {
+	padding-bottom: 12px;
+	font-size: 1.4rem;
+}
+
+.container-filha button {
+	font-size: 0.9rem;
+	font-weight: 700;
+	 width: 189px;
+  height: 47px;
+}
